@@ -2,8 +2,8 @@
   "name": "auth-app",
   "private": true,
   "scripts": {
-    "dev": "cd frontend && npm start",
-    "build": "cd frontend && npm run build"
+    "dev": "npm --prefix frontend start",
+  "build": "npm --prefix frontend run build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
